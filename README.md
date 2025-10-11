@@ -16,7 +16,7 @@ An active MySQL server instance.
 An active MongoDB server instance.
 
 Launch Method
-1. Clone the Repository
+  1. Clone the Repository
 
 First, open your terminal, navigate to the directory where you want to store the project, and clone the repository.
 
@@ -24,7 +24,7 @@ Bash
 
 git clone https://github.com/iuriestratulat/Movie-Search.git
 cd Movie-Search
-2. Create a Virtual Environment
+  2. Create a Virtual Environment
 
 It is a standard best practice to create a virtual environment to keep the project's dependencies isolated from your global Python installation.
 
@@ -42,14 +42,14 @@ python3 -m venv venv
 source venv/bin/activate
 Your terminal prompt should now indicate that you are in the (venv) environment.
 
-3. Install Dependencies
+  3. Install Dependencies
 
 Install all the required Python packages using the requirements.txt file. This command reads the file and installs the exact versions of the libraries needed for the project.
 
 Bash
 
 pip install -r requirements.txt
-4. Configure Local Settings
+  4. Configure Local Settings
 
 The application requires credentials to connect to your local MySQL and MongoDB databases. These are stored in a local settings file that you must create.
 
@@ -76,7 +76,7 @@ MONGO_URI = "mongodb://localhost:27017/"
 MONGO_DB_NAME = "logs_db"
 Important: The local_settings.py file is intentionally ignored by Git (via .gitignore) to ensure that your sensitive credentials are never published to GitHub.
 
-5. Run the Application
+  5. Run the Application
 
 Once the setup is complete, you can launch the main application script from your terminal:
 
