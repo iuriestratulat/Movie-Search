@@ -2,6 +2,7 @@
 Movie Search System with Statistics and Logging
 
 Getting Started
+
 Follow these instructions to get a local copy of the project up and running on your machine for development and testing purposes.
 
 Prerequisites
@@ -24,6 +25,7 @@ Bash
 
 git clone https://github.com/iuriestratulat/Movie-Search.git
 cd Movie-Search
+
   2. Create a Virtual Environment
 
 It is a standard best practice to create a virtual environment to keep the project's dependencies isolated from your global Python installation.
