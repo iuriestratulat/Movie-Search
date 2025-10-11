@@ -82,5 +82,5 @@ Once the setup is complete, you can launch the main application script from your
 
 Bash
 
-python main.py
+python scripts/main.py
 The movie search console interface should now start, and you can begin using the application.
