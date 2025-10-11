@@ -1,5 +1,6 @@
 # Movie-Search
 Movie Search System with Statistics and Logging
+
 Getting Started
 Follow these instructions to get a local copy of the project up and running on your machine for development and testing purposes.
 
