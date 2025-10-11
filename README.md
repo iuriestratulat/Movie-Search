@@ -51,6 +51,7 @@ Install all the required Python packages using the requirements.txt file. This c
 Bash
 
 pip install -r requirements.txt
+
   4. Configure Local Settings
 
 The application requires credentials to connect to your local MySQL and MongoDB databases. These are stored in a local settings file that you must create.
